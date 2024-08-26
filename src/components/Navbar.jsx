@@ -5,7 +5,7 @@ import { UserContext } from '../context/UserContext'
 const Navbar = () => {
 
     
-    console.log(useContext(UserContext))
+    console.log(useContext(UserContext)) // aca llamo al contexto global, esto lo puedo hacer en cualquier componente
 
   return (
     <nav className='navbar navbar-dark bg-dark'>
