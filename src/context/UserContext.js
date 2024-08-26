@@ -1,3 +1,3 @@
 import { createContext } from "react";
 
-const UserContext = createContext('nestor')
+ export const UserContext = createContext('nestor')

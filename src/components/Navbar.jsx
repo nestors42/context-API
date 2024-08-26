@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
+import { UserContext } from '../context/UserContext'
 
 const Navbar = () => {
+
+    
+    console.log(useContext(UserContext))
+
   return (
     <nav className='navbar navbar-dark bg-dark'>
         <div className='container p-3'>
